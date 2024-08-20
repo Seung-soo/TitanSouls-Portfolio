@@ -1,0 +1,1704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{0988324b-cbc1-4bd7-a5f3-bea4e3060c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{6c7f317b-22e2-435f-b2c0-6094e8e523d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{de2c8b7c-4f31-4677-9413-7ead65c7967b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{d8450090-5a8d-4c52-8fbd-380566917423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00.Logo">
+      <UniqueIdentifier>{078894f3-d698-4a35-aa67-ec39320d3aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\01.Loading">
+      <UniqueIdentifier>{743b4808-d6f9-4aca-98dd-c7ef137be098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.Field">
+      <UniqueIdentifier>{73929e16-1d18-4e23-a428-e0c4c743fd13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Ending">
+      <UniqueIdentifier>{d701637f-ec30-4cb5-a72c-0b180b2b2038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\01.Loading\Loader">
+      <UniqueIdentifier>{b9953eca-0502-482d-bea0-d60a0b74357d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{bfb2cb36-60e3-4b97-8585-e410118af5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Player">
+      <UniqueIdentifier>{6deee616-8c2a-401e-9a7b-2e0bda38a1a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Player\Arrow">
+      <UniqueIdentifier>{7fe87d81-2c45-4a3a-93ed-5d1c745723c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Sky">
+      <UniqueIdentifier>{36030552-ce57-4310-9a20-5045b973220c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI">
+      <UniqueIdentifier>{8ae802e9-a375-4209-807d-100fcdd0d404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Effect">
+      <UniqueIdentifier>{d1881361-5100-43ea-ab60-840e66b92602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Aim">
+      <UniqueIdentifier>{d67d7ebc-2680-45dc-85a6-81425da153d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Boss">
+      <UniqueIdentifier>{a3b7b042-ad7e-4f5b-a14c-124644d4f849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Boss\Ice_Brain">
+      <UniqueIdentifier>{cdc14b72-6560-4c49-aae0-98f4f27a6cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss">
+      <UniqueIdentifier>{82570f45-db22-4ba0-93a9-e25134eab6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\00.Level_Slime">
+      <UniqueIdentifier>{06191ea7-ba86-490d-808e-63d8a42987e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\02.Level_Colossus">
+      <UniqueIdentifier>{03b17707-71b8-4d0e-a25a-b4b9dafde7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\03.Level_EyeCube">
+      <UniqueIdentifier>{8d893842-48bf-4e3a-9807-b9db65af2983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\01.Level_IceBrain">
+      <UniqueIdentifier>{1ba7dbd5-4aeb-4e94-96c8-67bf8bf9ead8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Boss\EyeCube">
+      <UniqueIdentifier>{8fa7a988-f657-41e6-8042-055f1bc2fa4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Logo">
+      <UniqueIdentifier>{fab583f3-99ab-4cd8-940b-14d618366775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\001.Main">
+      <UniqueIdentifier>{37826ffc-d7cf-4c58-91fc-aed7c6732fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Main">
+      <UniqueIdentifier>{2d86a4de-fe5c-4585-ad6d-96488b26b6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\04.Level_Yeti">
+      <UniqueIdentifier>{cf68618a-c0c0-4cd1-bcb2-7f6ea61a481e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Boss\Yeti">
+      <UniqueIdentifier>{84dc20b1-865d-48b2-8783-945e024a87d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Boss\Slime">
+      <UniqueIdentifier>{3025721f-530b-4b1f-939c-1ec1e3cc3f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\03.Dungeon">
+      <UniqueIdentifier>{af0c95c1-f5ec-4a29-9098-60cf62f1c628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Loading">
+      <UniqueIdentifier>{75576604-0912-43c4-b0ad-c0fefaa10ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Loading\Back">
+      <UniqueIdentifier>{80782120-45b9-456e-a3bd-d862565d19fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Loading\Icon">
+      <UniqueIdentifier>{3613fba3-ca2d-488a-9d0b-a733435f0c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Loading\Text">
+      <UniqueIdentifier>{cfe7ae3c-0360-4073-b84b-f39581b44140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Boss\Slime\Shadow">
+      <UniqueIdentifier>{01a8410c-43b1-4a00-a3f2-73ab9fe3b0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Boss\Ice_Brain\Shadow">
+      <UniqueIdentifier>{43d43579-18ef-49f1-8624-356629eec6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Static">
+      <UniqueIdentifier>{bd8e9e80-f3b6-4e82-8516-b1e7c6d80e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.Field\Object">
+      <UniqueIdentifier>{66d941bb-485d-48f6-824d-d00afaa3707f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.Field\Object\Wall">
+      <UniqueIdentifier>{bf102cc5-e5ce-4896-b4df-e3394df41478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.Field\Object\Cube">
+      <UniqueIdentifier>{a9410d7d-a3be-4180-88d2-ea66b73e059c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.Field\Object\Rect">
+      <UniqueIdentifier>{15fa2d73-0fd3-4fb3-8bd6-ac7948788d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02.Field\Object\Terrain">
+      <UniqueIdentifier>{d0e2ac18-5801-4032-8266-2ce1d64cc0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\00.Level_Slime\Object">
+      <UniqueIdentifier>{803db66c-f602-4c17-b138-a6136ca60543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\00.Level_Slime\Object\Cube">
+      <UniqueIdentifier>{f8e85be8-db6a-4523-be66-8a7b41ed1f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\00.Level_Slime\Object\Rect">
+      <UniqueIdentifier>{2374fc4a-20a8-4542-813c-8056031a06b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\00.Level_Slime\Object\Terrain">
+      <UniqueIdentifier>{1714de01-95d9-4989-9409-52c4fc111ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\00.Level_Slime\Object\Wall">
+      <UniqueIdentifier>{2b6c8ee3-aa58-4088-8e5d-cf5489864e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\01.Level_IceBrain\Object">
+      <UniqueIdentifier>{617d8612-78b2-4e3b-afab-fb371394bbde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\01.Level_IceBrain\Object\Cube">
+      <UniqueIdentifier>{a2a115fd-5fd5-43e6-8394-167aa6b9ef1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\01.Level_IceBrain\Object\Rect">
+      <UniqueIdentifier>{f8454c32-2b26-4127-af1c-47fbdce7fde3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\01.Level_IceBrain\Object\Terrain">
+      <UniqueIdentifier>{3ff47a60-7744-462d-a3ff-a15ec0f0cc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\01.Level_IceBrain\Object\Wall">
+      <UniqueIdentifier>{8d441ba1-ce59-4dd7-8059-4fb050e2e968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\02.Level_Colossus\Object">
+      <UniqueIdentifier>{4e2122a8-a1e3-47e3-b473-0e4e2b394e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\02.Level_Colossus\Object\Cube">
+      <UniqueIdentifier>{f2f1b61c-04e3-4da0-b22d-9d404667b05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\02.Level_Colossus\Object\Rect">
+      <UniqueIdentifier>{95ebb8d9-a5e5-4eb5-8817-62c7755f76a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\02.Level_Colossus\Object\Terrain">
+      <UniqueIdentifier>{242b9831-d133-4797-8f43-003453033dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\02.Level_Colossus\Object\Wall">
+      <UniqueIdentifier>{1ce1a914-fedb-48f4-bf7e-3003fdaa2576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\03.Level_EyeCube\Object">
+      <UniqueIdentifier>{f18f4afa-af30-4b14-a672-b815c372935e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\03.Level_EyeCube\Object\Cube">
+      <UniqueIdentifier>{debd2fce-0c5b-417a-9655-193aecca3a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\03.Level_EyeCube\Object\Rect">
+      <UniqueIdentifier>{12f18b6e-afe6-48c3-ab4a-2030311b4b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\03.Level_EyeCube\Object\Terrain">
+      <UniqueIdentifier>{42e5a961-de54-412e-8e4b-af9502f5c3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\03.Level_EyeCube\Object\Wall">
+      <UniqueIdentifier>{89e6e418-8607-43d9-84a7-f04987d583b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\04.Level_Yeti\Object">
+      <UniqueIdentifier>{49daefe0-1c40-451e-b0b5-5bc30b2dc920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\04.Level_Yeti\Object\Cube">
+      <UniqueIdentifier>{1a3b73d1-61cf-42fb-92d3-8de20fcd4500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\04.Level_Yeti\Object\Rect">
+      <UniqueIdentifier>{8b3afcbb-feb4-4277-8dfe-66dabd424d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\04.Level_Yeti\Object\Terrain">
+      <UniqueIdentifier>{5deb34c2-054f-4b53-af45-c4867ecdaba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04.Boss\04.Level_Yeti\Object\Wall">
+      <UniqueIdentifier>{f0bac58c-8d43-4043-b45d-8531c7e04035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Boss\Yeti\Shadow">
+      <UniqueIdentifier>{892759af-06e4-45bc-ae21-4ed1f08ad345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Boss\Yeti\Effect">
+      <UniqueIdentifier>{4214c39b-a130-4ebc-8cc8-0ea1f185f781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components">
+      <UniqueIdentifier>{5ebade80-9c82-48a1-8385-d0034124214d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Wall">
+      <UniqueIdentifier>{0cb9b27b-3f3d-4865-ae5b-905037e85028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Components\Cube_Razer">
+      <UniqueIdentifier>{9e61fa8b-51fd-4b54-ab08-45243224e92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Camera">
+      <UniqueIdentifier>{1332db1b-fa04-4520-968a-828832ed012c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Camera\Camera_Player">
+      <UniqueIdentifier>{2590b827-9b8a-43e5-a33f-bd640539a5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Monster">
+      <UniqueIdentifier>{e21d28df-25a5-4f02-a2e9-b89d6118197e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\InGame">
+      <UniqueIdentifier>{02f56461-0bb9-4905-864d-81891e0c9f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\InGame\BossName">
+      <UniqueIdentifier>{429f6dda-988d-47f2-9e8d-841b87668ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Effect\LightLeak">
+      <UniqueIdentifier>{49e0cf94-6185-4f37-bcb1-99fac5670b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Effect\LightLeak\Object">
+      <UniqueIdentifier>{1aa0e282-27d2-4cdb-8242-a87eb062f32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Effect\EatSouls">
+      <UniqueIdentifier>{5b7258fc-1e52-4ff4-a54e-084ea664c098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Effect\EatSouls\Object">
+      <UniqueIdentifier>{d6677359-6860-4445-b637-944eb2176baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\03.Dungeon\Respawn1">
+      <UniqueIdentifier>{189dc5fc-f472-415b-9d5c-bac74f9c5d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\03.Dungeon\Respawn2">
+      <UniqueIdentifier>{3c0304ff-721d-49f8-8659-75d6cd9356aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\03.Dungeon\Respawn2\Object">
+      <UniqueIdentifier>{c6a21d84-60fd-4fa4-a46d-1e44a05ed488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\03.Dungeon\Respawn1\Object">
+      <UniqueIdentifier>{08791597-84ed-4da5-a2be-810a730b7df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Boss\Colossus">
+      <UniqueIdentifier>{409839ab-97b8-4c92-864b-b0269726d47f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Effect\WhiteScreen">
+      <UniqueIdentifier>{8ab95461-3f63-470b-ae64-e6048c9f39e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Effect\Blood">
+      <UniqueIdentifier>{2d1857c6-2038-420d-a575-740f406a3e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Effect\ArrowLight">
+      <UniqueIdentifier>{ba73ffac-5998-40e7-a8ff-a993f518d18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Effect\Zoom">
+      <UniqueIdentifier>{1b2bba45-2333-4dc4-9838-aa5500522176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\InGame\Skill">
+      <UniqueIdentifier>{60ef2c47-ba46-4106-83be-f838155e809a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Effect\DarkScreen">
+      <UniqueIdentifier>{64f14559-b16e-485f-912a-aee143abfdf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Brother">
+      <UniqueIdentifier>{dd5d29b6-2858-48da-ac7a-9ce60b7dc4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\for_Ending">
+      <UniqueIdentifier>{77b8957f-495b-4461-8928-7047225bb31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerState">
+      <UniqueIdentifier>{62919a83-1798-4fb4-878a-76ead194034f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\99.Ending\Object">
+      <UniqueIdentifier>{8d552252-504c-454c-ba87-90086f659f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Main\Main_Loby">
+      <UniqueIdentifier>{59297a48-0454-4192-b92a-fe6b45f83cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Main\Main_Quit">
+      <UniqueIdentifier>{5c294a72-da7d-4619-9162-2b3335ebe40f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Client_Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Loading.h">
+      <Filter>01.Levels\01.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Field.h">
+      <Filter>01.Levels\02.Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Levels\01.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player.h">
+      <Filter>02.GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Player.h">
+      <Filter>02.GameObjects\Camera\Camera_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Arrow.h">
+      <Filter>02.GameObjects\Player\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Sky.h">
+      <Filter>02.GameObjects\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VIBuffer_Wall.h">
+      <Filter>03.Components\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Aim.h">
+      <Filter>02.GameObjects\UI\Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Brain.h">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Ice_Brain.h">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Slime_Water.h">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Slime.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_IceBrain.h">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_EyeCube.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Colossus.h">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Main.h">
+      <Filter>01.Levels\001.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Background.h">
+      <Filter>02.GameObjects\UI\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VIBuffer_Cube_Rayzer.h">
+      <Filter>03.Components\Cube_Razer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Yeti.h">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Colossus.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Colossus_Fist.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Colossus_Fist_Right.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ColossusFist_Left_Shadow.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ColossusFist_Right_Shadow.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EyeCube.h">
+      <Filter>02.GameObjects\Boss\EyeCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EyeCube_Rayzer.h">
+      <Filter>02.GameObjects\Boss\EyeCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EyeCube_Shadow.h">
+      <Filter>02.GameObjects\Boss\EyeCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Icicle.h">
+      <Filter>02.GameObjects\Boss\Yeti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Yeti.h">
+      <Filter>02.GameObjects\Boss\Yeti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Yeti_SnowBall.h">
+      <Filter>02.GameObjects\Boss\Yeti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Terrain_Field01.h">
+      <Filter>01.Levels\02.Field\Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Water.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Ceiling.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Dark.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Grass.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Grass_Down.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Grass_Ex.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Grass_Up.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Light.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Light2.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Tree.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_LoadingText.h">
+      <Filter>02.GameObjects\UI\Loading\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_LoadingIcon.h">
+      <Filter>02.GameObjects\UI\Loading\Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_LoadingBack.h">
+      <Filter>02.GameObjects\UI\Loading\Back</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Ice_Shadow.h">
+      <Filter>02.GameObjects\Boss\Ice_Brain\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Wall.h">
+      <Filter>01.Levels\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Terrain.h">
+      <Filter>01.Levels\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Handrail.h">
+      <Filter>01.Levels\02.Field\Object\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Wall_Side_Field.h">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Wall_Field01_2.h">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Wall_Field01_1.h">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Yeti01_Terrain.h">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Yeti01_Wall1.h">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Yeti01_Wall2.h">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\IceBrain01_Terrain.h">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\IceBrain01_Wall2.h">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\IceBrain01_Wall1.h">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube01_Terrain.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube_Wall2.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube_Wall1.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Colossus01_Terrain.h">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Colossus01_Wall2.h">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Colossus01_Wall1.h">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Wall2.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Wall.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Terrain.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Include_Loader.h">
+      <Filter>01.Levels\01.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SnowBall_Shadow.h">
+      <Filter>02.GameObjects\Boss\Yeti\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Yeti_Shadow.h">
+      <Filter>02.GameObjects\Boss\Yeti\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Icicle_Shadow.h">
+      <Filter>02.GameObjects\Boss\Yeti\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SnowBall_afterimage.h">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Flask1.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Flask2.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Flask3.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Legiron.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Light.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Mist.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Pipe01.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Pipe02.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Skull.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Water_drop.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Slime01_Ceiling.h">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Yeti_afterimage.h">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Colosuss_Left_Fist_afterimage.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Colosuss_Right_Fist_afterimage.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Fire.h">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Fire_Button.h">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Slime.h">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Slime_Boss.h">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Slime_Heart.h">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Slime_Boss_Shadow.h">
+      <Filter>02.GameObjects\Boss\Slime\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Slime_Shadow.h">
+      <Filter>02.GameObjects\Boss\Slime\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ArrowFire.h">
+      <Filter>02.GameObjects\Player\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Archor_Bullet.h">
+      <Filter>02.GameObjects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster_Archor.h">
+      <Filter>02.GameObjects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Scene_Loding.h">
+      <Filter>02.GameObjects\UI\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Colossus01_CeilingEx.h">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Colossus01_CeilingEx02.h">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Colossus01_Dark01.h">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Colossus01_Grass01.h">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Colossus01_TerrainEx.h">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Colossus01_WallEx.h">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube01_Chess1.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube01_Chess2.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube01_Chess3.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube01_Chess4.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube_Ceiling.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube01_Wallex.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube01_Wallex2.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube01_Terrain2.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EyeCube01_Terrain3.h">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Yeti01_Ceiling01.h">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Yeti01_Ceiling02.h">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Yeti01_Ice03.h">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Yeti01_Ice04.h">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Yeti01_Terrain02.h">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Yeti01_Terrain03.h">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LightLeak.h">
+      <Filter>02.GameObjects\Effect\LightLeak\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_LightLeak.h">
+      <Filter>02.GameObjects\Effect\LightLeak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster_Short_Attack.h">
+      <Filter>02.GameObjects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster_Short_Range.h">
+      <Filter>02.GameObjects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Slime_water_mini.h">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Effect_EatSouls.h">
+      <Filter>02.GameObjects\Effect\EatSouls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Soul.h">
+      <Filter>02.GameObjects\Effect\EatSouls\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Soul_AfterImage.h">
+      <Filter>02.GameObjects\Effect\EatSouls\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Respawn2.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_Ceiling1.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_Ice1.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_Terrain.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_Wall1.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_WallC.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_Ceiling.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_Grass1.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_Grass2.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_Grass3.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_Grass4.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_Terrain.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_Terrain2.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_Wall1.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_WallA.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn01_WallB.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Respawn1.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Brain_Water.h">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Brain_water_mini.h">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Heart_water_mini.h">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Heart_Water.h">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Colosuss_Fist_Dust.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Clear_Effect.h">
+      <Filter>02.GameObjects\Effect\LightLeak\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WhiteScreen.h">
+      <Filter>02.GameObjects\Effect\WhiteScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Blood.h">
+      <Filter>02.GameObjects\Effect\Blood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Yeti_Dust.h">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Yeti_Snow_Dust.h">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Yeti_Snow_Dust_Big.h">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_Dust.h">
+      <Filter>02.GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Arrow_Pull.h">
+      <Filter>02.GameObjects\Player\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Arrow_Rect.h">
+      <Filter>02.GameObjects\Player\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01.Levels\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Logo.h">
+      <Filter>02.GameObjects\UI\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Logo00.h">
+      <Filter>02.GameObjects\UI\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Logo01.h">
+      <Filter>02.GameObjects\UI\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Logo02.h">
+      <Filter>02.GameObjects\UI\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_NameACIDNERVE.h">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_NameCOLOSSUS.h">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_NameEmpty.h">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_NameEYECUBE.h">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_NameICEBRAIN.h">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_NameYETI.h">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Back.h">
+      <Filter>02.GameObjects\UI\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Wall_Hide.h">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_CeilingYeti.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_Terrain2.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_WallA.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_WallB.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_WallC.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_WallD.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\IceBrain01_Ceiling.h">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\IceBrain01_Wall3.h">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\IceBrain01_Wall4.h">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Terrain2_Field01.h">
+      <Filter>01.Levels\02.Field\Object\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Ceiling2.h">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_WallDark.h">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EyeCube_Rayzer_Vertical.h">
+      <Filter>02.GameObjects\Boss\EyeCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Jongyu.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Jongyu_Shadow.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Yeti_Jump_Dust.h">
+      <Filter>02.GameObjects\Boss\Yeti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Icicle_Break_Effect.h">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ArrowLight.h">
+      <Filter>02.GameObjects\Player\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Slime_Heart_Shadow.h">
+      <Filter>02.GameObjects\Boss\Slime\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Brain_Shadow.h">
+      <Filter>02.GameObjects\Boss\Ice_Brain\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Yeti_Snow_Break_Effect.h">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Zoom.h">
+      <Filter>02.GameObjects\Effect\Zoom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\All_Door.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\All_Door2.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Door2.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_Door1.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_LBtnIcon.h">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_LShiftIcon.h">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_PotalBtnIcon.h">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Skill_CoolTimer.h">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Skill_Rolling.h">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Skill_Shooting.h">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Skill_Empty.h">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DarkScreen.h">
+      <Filter>02.GameObjects\Effect\DarkScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Brother.h">
+      <Filter>02.GameObjects\Brother</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Torch.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Torch_Fire.h">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Field01_DoorLight.h">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\Respawn02_IceWall.h">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Credit.h">
+      <Filter>02.GameObjects\UI\for_Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_EndingBack.h">
+      <Filter>02.GameObjects\UI\for_Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_PlayerDead.h">
+      <Filter>02.GameObjects\UI\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_PlayerState.h">
+      <Filter>02.GameObjects\UI\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_EndingCredit.h">
+      <Filter>01.Levels\99.Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EndDoor.h">
+      <Filter>01.Levels\99.Ending\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EndDoorLeft.h">
+      <Filter>01.Levels\99.Ending\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\map\EndDoorRight.h">
+      <Filter>01.Levels\99.Ending\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Jongyu_Break_Effect.h">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_OptionText.h">
+      <Filter>02.GameObjects\UI\Main\Main_Loby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_QuitText.h">
+      <Filter>02.GameObjects\UI\Main\Main_Loby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_SelectIcon.h">
+      <Filter>02.GameObjects\UI\Main\Main_Loby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_StartText.h">
+      <Filter>02.GameObjects\UI\Main\Main_Loby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_ExitBoard.h">
+      <Filter>02.GameObjects\UI\Main\Main_Quit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_LobyBoard.h">
+      <Filter>02.GameObjects\UI\Main\Main_Quit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_NoText.h">
+      <Filter>02.GameObjects\UI\Main\Main_Quit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_YesText.h">
+      <Filter>02.GameObjects\UI\Main\Main_Quit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Loading.cpp">
+      <Filter>01.Levels\01.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Field.cpp">
+      <Filter>01.Levels\02.Field</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Levels\01.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player.cpp">
+      <Filter>02.GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Sky.cpp">
+      <Filter>02.GameObjects\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VIBuffer_Wall.cpp">
+      <Filter>03.Components\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Aim.cpp">
+      <Filter>02.GameObjects\UI\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Brain.cpp">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Ice_Brain.cpp">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Slime_Water.cpp">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Slime.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Player.cpp">
+      <Filter>02.GameObjects\Camera\Camera_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_IceBrain.cpp">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_EyeCube.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Colossus.cpp">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Main.cpp">
+      <Filter>01.Levels\001.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Background.cpp">
+      <Filter>02.GameObjects\UI\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VIBuffer_Cube_Rayzer.cpp">
+      <Filter>03.Components\Cube_Razer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Arrow.cpp">
+      <Filter>02.GameObjects\Player\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Yeti.cpp">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Colossus.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Colossus_Fist.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Colossus_Fist_Right.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ColossusFist_Left_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ColossusFist_Right_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EyeCube.cpp">
+      <Filter>02.GameObjects\Boss\EyeCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EyeCube_Rayzer.cpp">
+      <Filter>02.GameObjects\Boss\EyeCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EyeCube_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\EyeCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Icicle.cpp">
+      <Filter>02.GameObjects\Boss\Yeti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Yeti.cpp">
+      <Filter>02.GameObjects\Boss\Yeti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Yeti_SnowBall.cpp">
+      <Filter>02.GameObjects\Boss\Yeti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Terrain_Field01.cpp">
+      <Filter>01.Levels\02.Field\Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Ceiling.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Dark.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Grass.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Grass_Down.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Grass_Ex.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Grass_Up.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Light.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Light2.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Tree.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Water.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_LoadingText.cpp">
+      <Filter>02.GameObjects\UI\Loading\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_LoadingIcon.cpp">
+      <Filter>02.GameObjects\UI\Loading\Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_LoadingBack.cpp">
+      <Filter>02.GameObjects\UI\Loading\Back</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Ice_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Ice_Brain\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Wall.cpp">
+      <Filter>01.Levels\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Terrain.cpp">
+      <Filter>01.Levels\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Handrail.cpp">
+      <Filter>01.Levels\02.Field\Object\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Wall_Side_Field.cpp">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Wall_Field01_2.cpp">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Wall_Field01_1.cpp">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Yeti01_Terrain.cpp">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Yeti01_Wall1.cpp">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Yeti01_Wall2.cpp">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\IceBrain01_Terrain.cpp">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\IceBrain01_Wall2.cpp">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\IceBrain01_Wall1.cpp">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube01_Terrain.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube_Wall2.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube_Wall1.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Colossus01_Terrain.cpp">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Colossus01_Wall2.cpp">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Colossus01_Wall1.cpp">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Wall2.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Wall.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Terrain.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Yeti_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Yeti\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SnowBall_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Yeti\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Icicle_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Yeti\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SnowBall_afterimage.cpp">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Flask1.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Flask2.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Flask3.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Legiron.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Light.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Mist.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Pipe01.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Pipe02.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Skull.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Water_drop.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Slime01_Ceiling.cpp">
+      <Filter>01.Levels\04.Boss\00.Level_Slime\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Yeti_afterimage.cpp">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Colosuss_Left_Fist_afterimage.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Colosuss_Right_Fist_afterimage.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Fire.cpp">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Fire_Button.cpp">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Slime.cpp">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Slime_Boss.cpp">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Slime_Heart.cpp">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Slime_Boss_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Slime\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Slime_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Slime\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ArrowFire.cpp">
+      <Filter>02.GameObjects\Player\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Archor_Bullet.cpp">
+      <Filter>02.GameObjects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster_Archor.cpp">
+      <Filter>02.GameObjects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Scene_Loding.cpp">
+      <Filter>02.GameObjects\UI\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Colossus01_CeilingEx.cpp">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Colossus01_CeilingEx02.cpp">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Colossus01_Dark01.cpp">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Colossus01_Grass01.cpp">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Colossus01_TerrainEx.cpp">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Colossus01_WallEx.cpp">
+      <Filter>01.Levels\04.Boss\02.Level_Colossus\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube01_Chess1.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube01_Chess2.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube01_Chess3.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube01_Chess4.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube_Ceiling.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube01_Wallex.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube01_Wallex2.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube01_Terrain2.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EyeCube01_Terrain3.cpp">
+      <Filter>01.Levels\04.Boss\03.Level_EyeCube\Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Yeti01_Ceiling01.cpp">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Yeti01_Ceiling02.cpp">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Yeti01_Ice03.cpp">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Yeti01_Ice04.cpp">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Yeti01_Terrain02.cpp">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Yeti01_Terrain03.cpp">
+      <Filter>01.Levels\04.Boss\04.Level_Yeti\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LightLeak.cpp">
+      <Filter>02.GameObjects\Effect\LightLeak\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_LightLeak.cpp">
+      <Filter>02.GameObjects\Effect\LightLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster_Short_Attack.cpp">
+      <Filter>02.GameObjects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster_Short_Range.cpp">
+      <Filter>02.GameObjects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Slime_water_mini.cpp">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Effect_EatSouls.cpp">
+      <Filter>02.GameObjects\Effect\EatSouls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Soul.cpp">
+      <Filter>02.GameObjects\Effect\EatSouls\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Soul_AfterImage.cpp">
+      <Filter>02.GameObjects\Effect\EatSouls\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Respawn2.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_Ceiling1.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_Ice1.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_Terrain.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_Wall1.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_Ceiling.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_Grass1.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_Grass2.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_Grass3.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_Grass4.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_Terrain.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_Terrain2.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_Wall1.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_WallA.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_WallB.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn01_WallC.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Respawn1.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Colosuss_Fist_Dust.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Heart_water_mini.cpp">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Heart_Water.cpp">
+      <Filter>02.GameObjects\Boss\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Brain_water_mini.cpp">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Brain_Water.cpp">
+      <Filter>02.GameObjects\Boss\Ice_Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Clear_Effect.cpp">
+      <Filter>02.GameObjects\Effect\LightLeak\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WhiteScreen.cpp">
+      <Filter>02.GameObjects\Effect\WhiteScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Blood.cpp">
+      <Filter>02.GameObjects\Effect\Blood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Yeti_Snow_Dust.cpp">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Yeti_Dust.cpp">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Yeti_Snow_Dust_Big.cpp">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_Dust.cpp">
+      <Filter>02.GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Arrow_Pull.cpp">
+      <Filter>02.GameObjects\Player\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Arrow_Rect.cpp">
+      <Filter>02.GameObjects\Player\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01.Levels\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Logo.cpp">
+      <Filter>02.GameObjects\UI\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Logo00.cpp">
+      <Filter>02.GameObjects\UI\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Logo01.cpp">
+      <Filter>02.GameObjects\UI\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Logo02.cpp">
+      <Filter>02.GameObjects\UI\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_NameACIDNERVE.cpp">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_NameCOLOSSUS.cpp">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_NameEmpty.cpp">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_NameEYECUBE.cpp">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_NameICEBRAIN.cpp">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_NameYETI.cpp">
+      <Filter>02.GameObjects\UI\InGame\BossName</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Back.cpp">
+      <Filter>02.GameObjects\UI\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Wall_Hide.cpp">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_CeilingYeti.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_Terrain2.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_WallA.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_WallB.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_WallC.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_WallD.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\IceBrain01_Ceiling.cpp">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\IceBrain01_Wall3.cpp">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\IceBrain01_Wall4.cpp">
+      <Filter>01.Levels\04.Boss\01.Level_IceBrain\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Terrain2_Field01.cpp">
+      <Filter>01.Levels\02.Field\Object\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Ceiling2.cpp">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_WallDark.cpp">
+      <Filter>01.Levels\02.Field\Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EyeCube_Rayzer_Vertical.cpp">
+      <Filter>02.GameObjects\Boss\EyeCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Jongyu.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Jongyu_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Yeti_Jump_Dust.cpp">
+      <Filter>02.GameObjects\Boss\Yeti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Icicle_Break_Effect.cpp">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ArrowLight.cpp">
+      <Filter>02.GameObjects\Player\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Slime_Heart_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Slime\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Brain_Shadow.cpp">
+      <Filter>02.GameObjects\Boss\Ice_Brain\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Yeti_Snow_Break_Effect.cpp">
+      <Filter>02.GameObjects\Boss\Yeti\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Zoom.cpp">
+      <Filter>02.GameObjects\Effect\Zoom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\All_Door.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\All_Door2.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Door1.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_Door2.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_LBtnIcon.cpp">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_LShiftIcon.cpp">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_PotalBtnIcon.cpp">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Skill_CoolTimer.cpp">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Skill_Rolling.cpp">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Skill_Shooting.cpp">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Skill_Empty.cpp">
+      <Filter>02.GameObjects\UI\InGame\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DarkScreen.cpp">
+      <Filter>02.GameObjects\Effect\DarkScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Brother.cpp">
+      <Filter>02.GameObjects\Brother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Torch.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Torch_Fire.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn1\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Field01_DoorLight.cpp">
+      <Filter>01.Levels\02.Field\Object\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\Respawn02_IceWall.cpp">
+      <Filter>01.Levels\03.Dungeon\Respawn2\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Credit.cpp">
+      <Filter>02.GameObjects\UI\for_Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_EndingBack.cpp">
+      <Filter>02.GameObjects\UI\for_Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_PlayerDead.cpp">
+      <Filter>02.GameObjects\UI\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_PlayerState.cpp">
+      <Filter>02.GameObjects\UI\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_EndingCredit.cpp">
+      <Filter>01.Levels\99.Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EndDoor.cpp">
+      <Filter>01.Levels\99.Ending\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EndDoorLeft.cpp">
+      <Filter>01.Levels\99.Ending\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\map\EndDoorRight.cpp">
+      <Filter>01.Levels\99.Ending\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Jongyu_Break_Effect.cpp">
+      <Filter>02.GameObjects\Boss\Colossus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_OptionText.cpp">
+      <Filter>02.GameObjects\UI\Main\Main_Loby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_QuitText.cpp">
+      <Filter>02.GameObjects\UI\Main\Main_Loby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_SelectIcon.cpp">
+      <Filter>02.GameObjects\UI\Main\Main_Loby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_StartText.cpp">
+      <Filter>02.GameObjects\UI\Main\Main_Loby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_ExitBoard.cpp">
+      <Filter>02.GameObjects\UI\Main\Main_Quit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_LobyBoard.cpp">
+      <Filter>02.GameObjects\UI\Main\Main_Quit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_NoText.cpp">
+      <Filter>02.GameObjects\UI\Main\Main_Quit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_YesText.cpp">
+      <Filter>02.GameObjects\UI\Main\Main_Quit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

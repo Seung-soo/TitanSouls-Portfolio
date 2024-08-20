@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{92EB5986-D6DC-447C-8463-5F0A070B2D8A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IncludePath>$(DXSDK_DIR)Include;..\..\core\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x64;..\..\core\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IncludePath>$(DXSDK_DIR)Include;..\..\core\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x64;..\..\core\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../public/;../../Reference/Inc/;../map/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/bin/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;Engine.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../public/;../../Reference/Inc/;../map/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/bin/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;Engine.lib;d3d9.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\map\All_Door.h" />
+    <ClInclude Include="..\map\All_Door2.h" />
+    <ClInclude Include="..\map\Colossus01_CeilingEx.h" />
+    <ClInclude Include="..\map\Colossus01_CeilingEx02.h" />
+    <ClInclude Include="..\map\Colossus01_Dark01.h" />
+    <ClInclude Include="..\map\Colossus01_Grass01.h" />
+    <ClInclude Include="..\map\Colossus01_Terrain.h" />
+    <ClInclude Include="..\map\Colossus01_TerrainEx.h" />
+    <ClInclude Include="..\map\Colossus01_Wall1.h" />
+    <ClInclude Include="..\map\Colossus01_Wall2.h" />
+    <ClInclude Include="..\map\Colossus01_WallEx.h" />
+    <ClInclude Include="..\map\EndDoor.h" />
+    <ClInclude Include="..\map\EndDoorLeft.h" />
+    <ClInclude Include="..\map\EndDoorRight.h" />
+    <ClInclude Include="..\map\EyeCube01_Chess1.h" />
+    <ClInclude Include="..\map\EyeCube01_Chess2.h" />
+    <ClInclude Include="..\map\EyeCube01_Chess3.h" />
+    <ClInclude Include="..\map\EyeCube01_Chess4.h" />
+    <ClInclude Include="..\map\EyeCube01_Terrain.h" />
+    <ClInclude Include="..\map\EyeCube01_Terrain2.h" />
+    <ClInclude Include="..\map\EyeCube01_Terrain3.h" />
+    <ClInclude Include="..\map\EyeCube01_Wallex.h" />
+    <ClInclude Include="..\map\EyeCube01_Wallex2.h" />
+    <ClInclude Include="..\map\EyeCube_Ceiling.h" />
+    <ClInclude Include="..\map\EyeCube_Wall1.h" />
+    <ClInclude Include="..\map\EyeCube_Wall2.h" />
+    <ClInclude Include="..\map\Field01_Ceiling.h" />
+    <ClInclude Include="..\map\Field01_Ceiling2.h" />
+    <ClInclude Include="..\map\Field01_Dark.h" />
+    <ClInclude Include="..\map\Field01_Door1.h" />
+    <ClInclude Include="..\map\Field01_Door2.h" />
+    <ClInclude Include="..\map\Field01_DoorLight.h" />
+    <ClInclude Include="..\map\Field01_Grass.h" />
+    <ClInclude Include="..\map\Field01_Grass_Down.h" />
+    <ClInclude Include="..\map\Field01_Grass_Ex.h" />
+    <ClInclude Include="..\map\Field01_Grass_Up.h" />
+    <ClInclude Include="..\map\Field01_Handrail.h" />
+    <ClInclude Include="..\map\Field01_Light.h" />
+    <ClInclude Include="..\map\Field01_Light2.h" />
+    <ClInclude Include="..\map\Field01_Tree.h" />
+    <ClInclude Include="..\map\Field01_WallDark.h" />
+    <ClInclude Include="..\map\Field01_Water.h" />
+    <ClInclude Include="..\map\IceBrain01_Ceiling.h" />
+    <ClInclude Include="..\map\IceBrain01_Terrain.h" />
+    <ClInclude Include="..\map\IceBrain01_Wall1.h" />
+    <ClInclude Include="..\map\IceBrain01_Wall2.h" />
+    <ClInclude Include="..\map\IceBrain01_Wall3.h" />
+    <ClInclude Include="..\map\IceBrain01_Wall4.h" />
+    <ClInclude Include="..\map\Include_Loader.h" />
+    <ClInclude Include="..\map\Respawn01_Ceiling.h" />
+    <ClInclude Include="..\map\Respawn01_Grass1.h" />
+    <ClInclude Include="..\map\Respawn01_Grass2.h" />
+    <ClInclude Include="..\map\Respawn01_Grass3.h" />
+    <ClInclude Include="..\map\Respawn01_Grass4.h" />
+    <ClInclude Include="..\map\Respawn01_Terrain.h" />
+    <ClInclude Include="..\map\Respawn01_Terrain2.h" />
+    <ClInclude Include="..\map\Respawn01_Wall1.h" />
+    <ClInclude Include="..\map\Respawn01_WallA.h" />
+    <ClInclude Include="..\map\Respawn01_WallB.h" />
+    <ClInclude Include="..\map\Respawn01_WallC.h" />
+    <ClInclude Include="..\map\Respawn02_Ceiling1.h" />
+    <ClInclude Include="..\map\Respawn02_CeilingYeti.h" />
+    <ClInclude Include="..\map\Respawn02_Ice1.h" />
+    <ClInclude Include="..\map\Respawn02_IceWall.h" />
+    <ClInclude Include="..\map\Respawn02_Terrain.h" />
+    <ClInclude Include="..\map\Respawn02_Terrain2.h" />
+    <ClInclude Include="..\map\Respawn02_Wall1.h" />
+    <ClInclude Include="..\map\Respawn02_WallA.h" />
+    <ClInclude Include="..\map\Respawn02_WallB.h" />
+    <ClInclude Include="..\map\Respawn02_WallC.h" />
+    <ClInclude Include="..\map\Respawn02_WallD.h" />
+    <ClInclude Include="..\map\Slime01_Ceiling.h" />
+    <ClInclude Include="..\map\Slime01_Flask1.h" />
+    <ClInclude Include="..\map\Slime01_Flask2.h" />
+    <ClInclude Include="..\map\Slime01_Flask3.h" />
+    <ClInclude Include="..\map\Slime01_Legiron.h" />
+    <ClInclude Include="..\map\Slime01_Light.h" />
+    <ClInclude Include="..\map\Slime01_Mist.h" />
+    <ClInclude Include="..\map\Slime01_Pipe01.h" />
+    <ClInclude Include="..\map\Slime01_Pipe02.h" />
+    <ClInclude Include="..\map\Slime01_Skull.h" />
+    <ClInclude Include="..\map\Slime01_Terrain.h" />
+    <ClInclude Include="..\map\Slime01_Wall.h" />
+    <ClInclude Include="..\map\Slime01_Wall2.h" />
+    <ClInclude Include="..\map\Slime01_Water_drop.h" />
+    <ClInclude Include="..\map\Terrain2_Field01.h" />
+    <ClInclude Include="..\map\Terrain_Field01.h" />
+    <ClInclude Include="..\map\Torch.h" />
+    <ClInclude Include="..\map\Torch_Fire.h" />
+    <ClInclude Include="..\map\Wall_Field01_1.h" />
+    <ClInclude Include="..\map\Wall_Field01_2.h" />
+    <ClInclude Include="..\map\Wall_Side_Field.h" />
+    <ClInclude Include="..\map\Yeti01_Ceiling01.h" />
+    <ClInclude Include="..\map\Yeti01_Ceiling02.h" />
+    <ClInclude Include="..\map\Yeti01_Ice03.h" />
+    <ClInclude Include="..\map\Yeti01_Ice04.h" />
+    <ClInclude Include="..\map\Yeti01_Terrain.h" />
+    <ClInclude Include="..\map\Yeti01_Terrain02.h" />
+    <ClInclude Include="..\map\Yeti01_Terrain03.h" />
+    <ClInclude Include="..\map\Yeti01_Wall1.h" />
+    <ClInclude Include="..\map\Yeti01_Wall2.h" />
+    <ClInclude Include="..\public\Aim.h" />
+    <ClInclude Include="..\public\Archor_Bullet.h" />
+    <ClInclude Include="..\public\Arrow.h" />
+    <ClInclude Include="..\public\ArrowFire.h" />
+    <ClInclude Include="..\public\ArrowLight.h" />
+    <ClInclude Include="..\public\Arrow_Pull.h" />
+    <ClInclude Include="..\public\Arrow_Rect.h" />
+    <ClInclude Include="..\public\Blood.h" />
+    <ClInclude Include="..\public\Brain.h" />
+    <ClInclude Include="..\public\Brain_Shadow.h" />
+    <ClInclude Include="..\public\Brain_Water.h" />
+    <ClInclude Include="..\public\Brain_water_mini.h" />
+    <ClInclude Include="..\public\Brother.h" />
+    <ClInclude Include="..\public\Camera_Player.h" />
+    <ClInclude Include="..\public\Clear_Effect.h" />
+    <ClInclude Include="..\public\Client_Defines.h" />
+    <ClInclude Include="..\public\Colossus.h" />
+    <ClInclude Include="..\public\ColossusFist_Left_Shadow.h" />
+    <ClInclude Include="..\public\ColossusFist_Right_Shadow.h" />
+    <ClInclude Include="..\public\Colossus_Fist.h" />
+    <ClInclude Include="..\public\Colossus_Fist_Right.h" />
+    <ClInclude Include="..\public\Colosuss_Fist_Dust.h" />
+    <ClInclude Include="..\public\Colosuss_Left_Fist_afterimage.h" />
+    <ClInclude Include="..\public\Colosuss_Right_Fist_afterimage.h" />
+    <ClInclude Include="..\public\DarkScreen.h" />
+    <ClInclude Include="..\public\Effect_EatSouls.h" />
+    <ClInclude Include="..\public\Effect_LightLeak.h" />
+    <ClInclude Include="..\public\EyeCube.h" />
+    <ClInclude Include="..\public\EyeCube_Rayzer.h" />
+    <ClInclude Include="..\public\EyeCube_Rayzer_Vertical.h" />
+    <ClInclude Include="..\public\EyeCube_Shadow.h" />
+    <ClInclude Include="..\public\Fire.h" />
+    <ClInclude Include="..\public\Fire_Button.h" />
+    <ClInclude Include="..\public\Heart_Water.h" />
+    <ClInclude Include="..\public\Heart_water_mini.h" />
+    <ClInclude Include="..\public\Ice_Brain.h" />
+    <ClInclude Include="..\public\Ice_Shadow.h" />
+    <ClInclude Include="..\public\Icicle.h" />
+    <ClInclude Include="..\public\Icicle_Break_Effect.h" />
+    <ClInclude Include="..\public\Icicle_Shadow.h" />
+    <ClInclude Include="..\public\Jongyu.h" />
+    <ClInclude Include="..\public\Jongyu_Break_Effect.h" />
+    <ClInclude Include="..\public\Jongyu_Shadow.h" />
+    <ClInclude Include="..\public\Level_Colossus.h" />
+    <ClInclude Include="..\public\Level_EndingCredit.h" />
+    <ClInclude Include="..\public\Level_EyeCube.h" />
+    <ClInclude Include="..\public\Level_Field.h" />
+    <ClInclude Include="..\public\Level_IceBrain.h" />
+    <ClInclude Include="..\public\Level_Loading.h" />
+    <ClInclude Include="..\public\Level_Logo.h" />
+    <ClInclude Include="..\public\Level_Main.h" />
+    <ClInclude Include="..\public\Level_Respawn1.h" />
+    <ClInclude Include="..\public\Level_Respawn2.h" />
+    <ClInclude Include="..\public\Level_Slime.h" />
+    <ClInclude Include="..\public\Level_Yeti.h" />
+    <ClInclude Include="..\public\LightLeak.h" />
+    <ClInclude Include="..\public\Loader.h" />
+    <ClInclude Include="..\public\MainApp.h" />
+    <ClInclude Include="..\public\Monster_Archor.h" />
+    <ClInclude Include="..\public\Monster_Short_Attack.h" />
+    <ClInclude Include="..\public\Monster_Short_Range.h" />
+    <ClInclude Include="..\public\Player.h" />
+    <ClInclude Include="..\public\Player_Dust.h" />
+    <ClInclude Include="..\public\Scene_Loding.h" />
+    <ClInclude Include="..\public\Sky.h" />
+    <ClInclude Include="..\public\Slime.h" />
+    <ClInclude Include="..\public\Slime_Boss.h" />
+    <ClInclude Include="..\public\Slime_Boss_Shadow.h" />
+    <ClInclude Include="..\public\Slime_Heart.h" />
+    <ClInclude Include="..\public\Slime_Heart_Shadow.h" />
+    <ClInclude Include="..\public\Slime_Shadow.h" />
+    <ClInclude Include="..\public\Slime_Water.h" />
+    <ClInclude Include="..\public\Slime_water_mini.h" />
+    <ClInclude Include="..\public\SnowBall_afterimage.h" />
+    <ClInclude Include="..\public\SnowBall_Shadow.h" />
+    <ClInclude Include="..\public\Soul.h" />
+    <ClInclude Include="..\public\Soul_AfterImage.h" />
+    <ClInclude Include="..\public\Terrain.h" />
+    <ClInclude Include="..\public\UI_Back.h" />
+    <ClInclude Include="..\public\UI_Background.h" />
+    <ClInclude Include="..\public\UI_Credit.h" />
+    <ClInclude Include="..\public\UI_EndingBack.h" />
+    <ClInclude Include="..\public\UI_ExitBoard.h" />
+    <ClInclude Include="..\public\UI_LBtnIcon.h" />
+    <ClInclude Include="..\public\UI_LoadingBack.h" />
+    <ClInclude Include="..\public\UI_LoadingIcon.h" />
+    <ClInclude Include="..\public\UI_LoadingText.h" />
+    <ClInclude Include="..\public\UI_LobyBoard.h" />
+    <ClInclude Include="..\public\UI_Logo.h" />
+    <ClInclude Include="..\public\UI_Logo00.h" />
+    <ClInclude Include="..\public\UI_Logo01.h" />
+    <ClInclude Include="..\public\UI_Logo02.h" />
+    <ClInclude Include="..\public\UI_LShiftIcon.h" />
+    <ClInclude Include="..\public\UI_NameACIDNERVE.h" />
+    <ClInclude Include="..\public\UI_NameCOLOSSUS.h" />
+    <ClInclude Include="..\public\UI_NameEmpty.h" />
+    <ClInclude Include="..\public\UI_NameEYECUBE.h" />
+    <ClInclude Include="..\public\UI_NameICEBRAIN.h" />
+    <ClInclude Include="..\public\UI_NameYETI.h" />
+    <ClInclude Include="..\public\UI_NoText.h" />
+    <ClInclude Include="..\public\UI_OptionText.h" />
+    <ClInclude Include="..\public\UI_PlayerDead.h" />
+    <ClInclude Include="..\public\UI_PlayerState.h" />
+    <ClInclude Include="..\public\UI_PotalBtnIcon.h" />
+    <ClInclude Include="..\public\UI_QuitText.h" />
+    <ClInclude Include="..\public\UI_SelectIcon.h" />
+    <ClInclude Include="..\public\UI_Skill_CoolTimer.h" />
+    <ClInclude Include="..\public\UI_Skill_Empty.h" />
+    <ClInclude Include="..\public\UI_Skill_Rolling.h" />
+    <ClInclude Include="..\public\UI_Skill_Shooting.h" />
+    <ClInclude Include="..\public\UI_StartText.h" />
+    <ClInclude Include="..\public\UI_YesText.h" />
+    <ClInclude Include="..\public\VIBuffer_Cube_Rayzer.h" />
+    <ClInclude Include="..\public\VIBuffer_Wall.h" />
+    <ClInclude Include="..\public\Wall.h" />
+    <ClInclude Include="..\public\Wall_Hide.h" />
+    <ClInclude Include="..\public\WhiteScreen.h" />
+    <ClInclude Include="..\public\Yeti.h" />
+    <ClInclude Include="..\public\Yeti_afterimage.h" />
+    <ClInclude Include="..\public\Yeti_Dust.h" />
+    <ClInclude Include="..\public\Yeti_Jump_Dust.h" />
+    <ClInclude Include="..\public\Yeti_Shadow.h" />
+    <ClInclude Include="..\public\Yeti_SnowBall.h" />
+    <ClInclude Include="..\public\Yeti_Snow_Break_Effect.h" />
+    <ClInclude Include="..\public\Yeti_Snow_Dust.h" />
+    <ClInclude Include="..\public\Yeti_Snow_Dust_Big.h" />
+    <ClInclude Include="..\public\Zoom.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\map\All_Door.cpp" />
+    <ClCompile Include="..\map\All_Door2.cpp" />
+    <ClCompile Include="..\map\Colossus01_CeilingEx.cpp" />
+    <ClCompile Include="..\map\Colossus01_CeilingEx02.cpp" />
+    <ClCompile Include="..\map\Colossus01_Dark01.cpp" />
+    <ClCompile Include="..\map\Colossus01_Grass01.cpp" />
+    <ClCompile Include="..\map\Colossus01_Terrain.cpp" />
+    <ClCompile Include="..\map\Colossus01_TerrainEx.cpp" />
+    <ClCompile Include="..\map\Colossus01_Wall1.cpp" />
+    <ClCompile Include="..\map\Colossus01_Wall2.cpp" />
+    <ClCompile Include="..\map\Colossus01_WallEx.cpp" />
+    <ClCompile Include="..\map\EndDoor.cpp" />
+    <ClCompile Include="..\map\EndDoorLeft.cpp" />
+    <ClCompile Include="..\map\EndDoorRight.cpp" />
+    <ClCompile Include="..\map\EyeCube01_Chess1.cpp" />
+    <ClCompile Include="..\map\EyeCube01_Chess2.cpp" />
+    <ClCompile Include="..\map\EyeCube01_Chess3.cpp" />
+    <ClCompile Include="..\map\EyeCube01_Chess4.cpp" />
+    <ClCompile Include="..\map\EyeCube01_Terrain.cpp" />
+    <ClCompile Include="..\map\EyeCube01_Terrain2.cpp" />
+    <ClCompile Include="..\map\EyeCube01_Terrain3.cpp" />
+    <ClCompile Include="..\map\EyeCube01_Wallex.cpp" />
+    <ClCompile Include="..\map\EyeCube01_Wallex2.cpp" />
+    <ClCompile Include="..\map\EyeCube_Ceiling.cpp" />
+    <ClCompile Include="..\map\EyeCube_Wall1.cpp" />
+    <ClCompile Include="..\map\EyeCube_Wall2.cpp" />
+    <ClCompile Include="..\map\Field01_Ceiling.cpp" />
+    <ClCompile Include="..\map\Field01_Ceiling2.cpp" />
+    <ClCompile Include="..\map\Field01_Dark.cpp" />
+    <ClCompile Include="..\map\Field01_Door1.cpp" />
+    <ClCompile Include="..\map\Field01_Door2.cpp" />
+    <ClCompile Include="..\map\Field01_DoorLight.cpp" />
+    <ClCompile Include="..\map\Field01_Grass.cpp" />
+    <ClCompile Include="..\map\Field01_Grass_Down.cpp" />
+    <ClCompile Include="..\map\Field01_Grass_Ex.cpp" />
+    <ClCompile Include="..\map\Field01_Grass_Up.cpp" />
+    <ClCompile Include="..\map\Field01_Handrail.cpp" />
+    <ClCompile Include="..\map\Field01_Light.cpp" />
+    <ClCompile Include="..\map\Field01_Light2.cpp" />
+    <ClCompile Include="..\map\Field01_Tree.cpp" />
+    <ClCompile Include="..\map\Field01_WallDark.cpp" />
+    <ClCompile Include="..\map\Field01_Water.cpp" />
+    <ClCompile Include="..\map\IceBrain01_Ceiling.cpp" />
+    <ClCompile Include="..\map\IceBrain01_Terrain.cpp" />
+    <ClCompile Include="..\map\IceBrain01_Wall1.cpp" />
+    <ClCompile Include="..\map\IceBrain01_Wall2.cpp" />
+    <ClCompile Include="..\map\IceBrain01_Wall3.cpp" />
+    <ClCompile Include="..\map\IceBrain01_Wall4.cpp" />
+    <ClCompile Include="..\map\Respawn01_Ceiling.cpp" />
+    <ClCompile Include="..\map\Respawn01_Grass1.cpp" />
+    <ClCompile Include="..\map\Respawn01_Grass2.cpp" />
+    <ClCompile Include="..\map\Respawn01_Grass3.cpp" />
+    <ClCompile Include="..\map\Respawn01_Grass4.cpp" />
+    <ClCompile Include="..\map\Respawn01_Terrain.cpp" />
+    <ClCompile Include="..\map\Respawn01_Terrain2.cpp" />
+    <ClCompile Include="..\map\Respawn01_Wall1.cpp" />
+    <ClCompile Include="..\map\Respawn01_WallA.cpp" />
+    <ClCompile Include="..\map\Respawn01_WallB.cpp" />
+    <ClCompile Include="..\map\Respawn01_WallC.cpp" />
+    <ClCompile Include="..\map\Respawn02_Ceiling1.cpp" />
+    <ClCompile Include="..\map\Respawn02_CeilingYeti.cpp" />
+    <ClCompile Include="..\map\Respawn02_Ice1.cpp" />
+    <ClCompile Include="..\map\Respawn02_IceWall.cpp" />
+    <ClCompile Include="..\map\Respawn02_Terrain.cpp" />
+    <ClCompile Include="..\map\Respawn02_Terrain2.cpp" />
+    <ClCompile Include="..\map\Respawn02_Wall1.cpp" />
+    <ClCompile Include="..\map\Respawn02_WallA.cpp" />
+    <ClCompile Include="..\map\Respawn02_WallB.cpp" />
+    <ClCompile Include="..\map\Respawn02_WallC.cpp" />
+    <ClCompile Include="..\map\Respawn02_WallD.cpp" />
+    <ClCompile Include="..\map\Slime01_Ceiling.cpp" />
+    <ClCompile Include="..\map\Slime01_Flask1.cpp" />
+    <ClCompile Include="..\map\Slime01_Flask2.cpp" />
+    <ClCompile Include="..\map\Slime01_Flask3.cpp" />
+    <ClCompile Include="..\map\Slime01_Legiron.cpp" />
+    <ClCompile Include="..\map\Slime01_Light.cpp" />
+    <ClCompile Include="..\map\Slime01_Mist.cpp" />
+    <ClCompile Include="..\map\Slime01_Pipe01.cpp" />
+    <ClCompile Include="..\map\Slime01_Pipe02.cpp" />
+    <ClCompile Include="..\map\Slime01_Skull.cpp" />
+    <ClCompile Include="..\map\Slime01_Terrain.cpp" />
+    <ClCompile Include="..\map\Slime01_Wall.cpp" />
+    <ClCompile Include="..\map\Slime01_Wall2.cpp" />
+    <ClCompile Include="..\map\Slime01_Water_drop.cpp" />
+    <ClCompile Include="..\map\Terrain2_Field01.cpp" />
+    <ClCompile Include="..\map\Terrain_Field01.cpp" />
+    <ClCompile Include="..\map\Torch.cpp" />
+    <ClCompile Include="..\map\Torch_Fire.cpp" />
+    <ClCompile Include="..\map\Wall_Field01_1.cpp" />
+    <ClCompile Include="..\map\Wall_Field01_2.cpp" />
+    <ClCompile Include="..\map\Wall_Side_Field.cpp" />
+    <ClCompile Include="..\map\Yeti01_Ceiling01.cpp" />
+    <ClCompile Include="..\map\Yeti01_Ceiling02.cpp" />
+    <ClCompile Include="..\map\Yeti01_Ice03.cpp" />
+    <ClCompile Include="..\map\Yeti01_Ice04.cpp" />
+    <ClCompile Include="..\map\Yeti01_Terrain.cpp" />
+    <ClCompile Include="..\map\Yeti01_Terrain02.cpp" />
+    <ClCompile Include="..\map\Yeti01_Terrain03.cpp" />
+    <ClCompile Include="..\map\Yeti01_Wall1.cpp" />
+    <ClCompile Include="..\map\Yeti01_Wall2.cpp" />
+    <ClCompile Include="..\private\Aim.cpp" />
+    <ClCompile Include="..\private\Archor_Bullet.cpp" />
+    <ClCompile Include="..\private\Arrow.cpp" />
+    <ClCompile Include="..\private\ArrowFire.cpp" />
+    <ClCompile Include="..\private\ArrowLight.cpp" />
+    <ClCompile Include="..\private\Arrow_Pull.cpp" />
+    <ClCompile Include="..\private\Arrow_Rect.cpp" />
+    <ClCompile Include="..\private\Blood.cpp" />
+    <ClCompile Include="..\private\Brain.cpp" />
+    <ClCompile Include="..\private\Brain_Shadow.cpp" />
+    <ClCompile Include="..\private\Brain_Water.cpp" />
+    <ClCompile Include="..\private\Brain_water_mini.cpp" />
+    <ClCompile Include="..\private\Brother.cpp" />
+    <ClCompile Include="..\private\Camera_Player.cpp" />
+    <ClCompile Include="..\private\Clear_Effect.cpp" />
+    <ClCompile Include="..\private\Colossus.cpp" />
+    <ClCompile Include="..\private\ColossusFist_Left_Shadow.cpp" />
+    <ClCompile Include="..\private\ColossusFist_Right_Shadow.cpp" />
+    <ClCompile Include="..\private\Colossus_Fist.cpp" />
+    <ClCompile Include="..\private\Colossus_Fist_Right.cpp" />
+    <ClCompile Include="..\private\Colosuss_Fist_Dust.cpp" />
+    <ClCompile Include="..\private\Colosuss_Left_Fist_afterimage.cpp" />
+    <ClCompile Include="..\private\Colosuss_Right_Fist_afterimage.cpp" />
+    <ClCompile Include="..\private\DarkScreen.cpp" />
+    <ClCompile Include="..\private\Effect_EatSouls.cpp" />
+    <ClCompile Include="..\private\Effect_LightLeak.cpp" />
+    <ClCompile Include="..\private\EyeCube.cpp" />
+    <ClCompile Include="..\private\EyeCube_Rayzer.cpp" />
+    <ClCompile Include="..\private\EyeCube_Rayzer_Vertical.cpp" />
+    <ClCompile Include="..\private\EyeCube_Shadow.cpp" />
+    <ClCompile Include="..\private\Fire.cpp" />
+    <ClCompile Include="..\private\Fire_Button.cpp" />
+    <ClCompile Include="..\private\Heart_Water.cpp" />
+    <ClCompile Include="..\private\Heart_water_mini.cpp" />
+    <ClCompile Include="..\private\Ice_Brain.cpp" />
+    <ClCompile Include="..\private\Ice_Shadow.cpp" />
+    <ClCompile Include="..\private\Icicle.cpp" />
+    <ClCompile Include="..\private\Icicle_Break_Effect.cpp" />
+    <ClCompile Include="..\private\Icicle_Shadow.cpp" />
+    <ClCompile Include="..\private\Jongyu.cpp" />
+    <ClCompile Include="..\private\Jongyu_Break_Effect.cpp" />
+    <ClCompile Include="..\private\Jongyu_Shadow.cpp" />
+    <ClCompile Include="..\private\Level_Colossus.cpp" />
+    <ClCompile Include="..\private\Level_EndingCredit.cpp" />
+    <ClCompile Include="..\private\Level_EyeCube.cpp" />
+    <ClCompile Include="..\private\Level_Field.cpp" />
+    <ClCompile Include="..\private\Level_IceBrain.cpp" />
+    <ClCompile Include="..\private\Level_Loading.cpp" />
+    <ClCompile Include="..\private\Level_Logo.cpp" />
+    <ClCompile Include="..\private\Level_Main.cpp" />
+    <ClCompile Include="..\private\Level_Respawn1.cpp" />
+    <ClCompile Include="..\private\Level_Respawn2.cpp" />
+    <ClCompile Include="..\private\Level_Slime.cpp" />
+    <ClCompile Include="..\private\Level_Yeti.cpp" />
+    <ClCompile Include="..\private\LightLeak.cpp" />
+    <ClCompile Include="..\private\Loader.cpp" />
+    <ClCompile Include="..\private\MainApp.cpp" />
+    <ClCompile Include="..\private\Monster_Archor.cpp" />
+    <ClCompile Include="..\private\Monster_Short_Attack.cpp" />
+    <ClCompile Include="..\private\Monster_Short_Range.cpp" />
+    <ClCompile Include="..\private\Player.cpp" />
+    <ClCompile Include="..\private\Player_Dust.cpp" />
+    <ClCompile Include="..\private\Scene_Loding.cpp" />
+    <ClCompile Include="..\private\Sky.cpp" />
+    <ClCompile Include="..\private\Slime.cpp" />
+    <ClCompile Include="..\private\Slime_Boss.cpp" />
+    <ClCompile Include="..\private\Slime_Boss_Shadow.cpp" />
+    <ClCompile Include="..\private\Slime_Heart.cpp" />
+    <ClCompile Include="..\private\Slime_Heart_Shadow.cpp" />
+    <ClCompile Include="..\private\Slime_Shadow.cpp" />
+    <ClCompile Include="..\private\Slime_Water.cpp" />
+    <ClCompile Include="..\private\Slime_water_mini.cpp" />
+    <ClCompile Include="..\private\SnowBall_afterimage.cpp" />
+    <ClCompile Include="..\private\SnowBall_Shadow.cpp" />
+    <ClCompile Include="..\private\Soul.cpp" />
+    <ClCompile Include="..\private\Soul_AfterImage.cpp" />
+    <ClCompile Include="..\private\Terrain.cpp" />
+    <ClCompile Include="..\private\UI_Back.cpp" />
+    <ClCompile Include="..\private\UI_Background.cpp" />
+    <ClCompile Include="..\private\UI_Credit.cpp" />
+    <ClCompile Include="..\private\UI_EndingBack.cpp" />
+    <ClCompile Include="..\private\UI_ExitBoard.cpp" />
+    <ClCompile Include="..\private\UI_LBtnIcon.cpp" />
+    <ClCompile Include="..\private\UI_LoadingBack.cpp" />
+    <ClCompile Include="..\private\UI_LoadingIcon.cpp" />
+    <ClCompile Include="..\private\UI_LoadingText.cpp" />
+    <ClCompile Include="..\private\UI_LobyBoard.cpp" />
+    <ClCompile Include="..\private\UI_Logo.cpp" />
+    <ClCompile Include="..\private\UI_Logo00.cpp" />
+    <ClCompile Include="..\private\UI_Logo01.cpp" />
+    <ClCompile Include="..\private\UI_Logo02.cpp" />
+    <ClCompile Include="..\private\UI_LShiftIcon.cpp" />
+    <ClCompile Include="..\private\UI_NameACIDNERVE.cpp" />
+    <ClCompile Include="..\private\UI_NameCOLOSSUS.cpp" />
+    <ClCompile Include="..\private\UI_NameEmpty.cpp" />
+    <ClCompile Include="..\private\UI_NameEYECUBE.cpp" />
+    <ClCompile Include="..\private\UI_NameICEBRAIN.cpp" />
+    <ClCompile Include="..\private\UI_NameYETI.cpp" />
+    <ClCompile Include="..\private\UI_NoText.cpp" />
+    <ClCompile Include="..\private\UI_OptionText.cpp" />
+    <ClCompile Include="..\private\UI_PlayerDead.cpp" />
+    <ClCompile Include="..\private\UI_PlayerState.cpp" />
+    <ClCompile Include="..\private\UI_PotalBtnIcon.cpp" />
+    <ClCompile Include="..\private\UI_QuitText.cpp" />
+    <ClCompile Include="..\private\UI_SelectIcon.cpp" />
+    <ClCompile Include="..\private\UI_Skill_CoolTimer.cpp" />
+    <ClCompile Include="..\private\UI_Skill_Empty.cpp" />
+    <ClCompile Include="..\private\UI_Skill_Rolling.cpp" />
+    <ClCompile Include="..\private\UI_Skill_Shooting.cpp" />
+    <ClCompile Include="..\private\UI_StartText.cpp" />
+    <ClCompile Include="..\private\UI_YesText.cpp" />
+    <ClCompile Include="..\private\VIBuffer_Cube_Rayzer.cpp" />
+    <ClCompile Include="..\private\VIBuffer_Wall.cpp" />
+    <ClCompile Include="..\private\Wall.cpp" />
+    <ClCompile Include="..\private\Wall_Hide.cpp" />
+    <ClCompile Include="..\private\WhiteScreen.cpp" />
+    <ClCompile Include="..\private\Yeti.cpp" />
+    <ClCompile Include="..\private\Yeti_afterimage.cpp" />
+    <ClCompile Include="..\private\Yeti_Dust.cpp" />
+    <ClCompile Include="..\private\Yeti_Jump_Dust.cpp" />
+    <ClCompile Include="..\private\Yeti_Shadow.cpp" />
+    <ClCompile Include="..\private\Yeti_SnowBall.cpp" />
+    <ClCompile Include="..\private\Yeti_Snow_Break_Effect.cpp" />
+    <ClCompile Include="..\private\Yeti_Snow_Dust.cpp" />
+    <ClCompile Include="..\private\Yeti_Snow_Dust_Big.cpp" />
+    <ClCompile Include="..\private\Zoom.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
